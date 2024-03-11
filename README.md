@@ -1,3 +1,13 @@
+### FOR MAGICPLAN
+
+* The main branch contains the commit that updates the repo as if it was a PR. On react-native-vision-camera version update, syncing the fork should be enough.
+
+* To release the app :
+  * Checkout to a branch corresponding to the new version name.
+  * Update the version in package.json
+  * Grab and execute the build script in the branch 'magicplan-release'. You can cherry-pick the commit a2f54811300acf2ca03e61df8d777db9ebfb5db9.
+  * Push the branch
+
 <a href="https://margelo.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./docs/static/img/banner-dark.png" />
